@@ -18,6 +18,10 @@
       "name": "Login",
       "url": "https://app.courier.com/sso/documentation?docsDeepLink=%2Fdocs%2Fgetting-started%2Fwhat-is-courier%2F"
     },
+    "feedback": {
+      "thumbsRating": true,
+      "suggestEdit": true
+    },
     "topbarLinks": [
       {
         "name": "Sign Up",
@@ -69,10 +73,10 @@
       {
         "group": "API Playground",
         "pages": [
-          "api-playground/fetch-the-profile-picture-of-an-employee",
-          "api-playground/fetch-an-audio-file-with-the-name-pronunciation-of-an-employee",
-          "api-playground/fetch-project-stats-for-a-given-user",
-          "api-playground/fetch-project-stats-for-a-given-user-1"      
+          "rest-api/fetch-the-profile-picture-of-an-employee",
+          "rest-api/fetch-an-audio-file-with-the-name-pronunciation-of-an-employee",
+          "rest-api/fetch-project-stats-for-a-given-user",
+          "rest-api/fetch-project-stats-for-a-given-user-1"
         ]
       }
     ],
