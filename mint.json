@@ -1,0 +1,53 @@
+{
+    "name": "Courier",
+    "logo": {
+      "light": "/logo/logo.png",
+      "dark": "/logo/logo.png"
+    },
+    "favicon": "/favicon.jpeg",
+    "colors": {
+      "primary": "#9121C2",
+      "light": "#AC33E0",
+      "dark": "#9121C2",
+      "anchors": {
+        "from": "#fb5962",
+        "to": "#9121C2"
+      }
+    },
+    "topbarCtaButton": {
+      "name": "Login",
+      "url": "https://app.courier.com/sso/documentation?docsDeepLink=%2Fdocs%2Fgetting-started%2Fwhat-is-courier%2F"
+    },
+    "topbarLinks": [
+      {
+        "name": "Sign Up",
+        "url": "https://app.courier.com/signup"
+      }
+    ],
+    "tabs": [
+      {
+          "name": "REST API",
+          "url": "rest-api"
+      },
+      {
+          "name": "SDK Libraries",
+          "url": "sdk-libraries"
+      }
+  ],
+    "navigation": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "getting-started/what-is-courier"
+        ]
+      }
+    ],
+    "footerSocials":
+      {
+          "twitter": "https://www.twitter.com/trycourier",
+          "linkedin": "https://www.linkedin.com/company/trycourier",
+          "youtube": "https://www.youtube.com/channel/UCuONBIOzl-hypZ5qqWKDeeg",
+          "discord": "https://discord.com/invite/courier",
+          "twitch": "https://www.twitch.tv/trycourier"
+      }
+  }
