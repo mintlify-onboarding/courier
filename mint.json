@@ -24,6 +24,18 @@
         "url": "https://app.courier.com/signup"
       }
     ],
+    "anchors": [
+      {
+        "name": "Status",
+        "icon": "signal-bars",
+        "url": "https://status.courier.com/"
+    },
+      {
+          "name": "Blog",
+          "icon": "newspaper",
+          "url": "https://www.courier.com/blog/"
+      }
+  ],
     "tabs": [
       {
           "name": "REST API",
@@ -38,7 +50,29 @@
       {
         "group": "Getting Started",
         "pages": [
-          "getting-started/what-is-courier"
+          "getting-started/what-is-courier",
+          "getting-started/courier-concepts",
+          {
+            "group": "Quick Starts",
+            "pages": [
+              "getting-started/quickstarts/nodejs",
+              "getting-started/quickstarts/python",
+              "getting-started/quickstarts/ruby",
+              "getting-started/quickstarts/java",
+              "getting-started/quickstarts/php",
+              "getting-started/quickstarts/go"
+            ]
+          },
+          "tutorials"
+        ]
+      },
+      {
+        "group": "API Playground",
+        "pages": [
+          "api-playground/fetch-the-profile-picture-of-an-employee",
+          "api-playground/fetch-an-audio-file-with-the-name-pronunciation-of-an-employee",
+          "api-playground/fetch-project-stats-for-a-given-user",
+          "api-playground/fetch-project-stats-for-a-given-user-1"      
         ]
       }
     ],
