@@ -71,12 +71,93 @@
         ]
       },
       {
-        "group": "API Playground",
+        "group": "Sending Messages",
         "pages": [
-          "rest-api/fetch-the-profile-picture-of-an-employee",
-          "rest-api/fetch-an-audio-file-with-the-name-pronunciation-of-an-employee",
-          "rest-api/fetch-project-stats-for-a-given-user",
-          "rest-api/fetch-project-stats-for-a-given-user-1"
+          "api-reference/send-a-message"
+        ]
+      },
+      {
+        "group": "Audiences",
+        "pages": [
+          "api-reference/audiences/get-an-audience",
+          "api-reference/audiences/update-an-audience",
+          "api-reference/audiences/delete-an-audience",
+          "api-reference/audiences/list-audience-members",
+          "api-reference/audiences/list-all-audiences"
+        ]
+      },
+      {
+        "group": "AuditEvents",
+        "pages": [
+          "api-reference/auditevents/get-all-audit-events",
+          "api-reference/auditevents/get-an-audit-event"
+        ]
+      },
+      {
+        "group": "AuthTokens",
+        "pages": [
+          "api-reference/authtokens/create-an-auth-token"
+        ]
+      },
+      {
+        "group": "Automations",
+        "pages": [
+          "api-reference/automations/invoke-an-automation",
+          "api-reference/automations/post-automationsinvoke"
+        ]
+      },
+      {
+        "group": "Brands",
+        "pages": [
+          "api-reference/brands/list-brands",
+          "api-reference/brands/create-a-new-brand",
+          "api-reference/brands/get-a-brand",
+          "api-reference/brands/delete-a-brand"
+        ]
+      },
+      {
+        "group": "Bulk",
+        "pages": [
+          "api-reference/bulk/create-a-bulk-job",
+          "api-reference/bulk/add-users",
+          "api-reference/bulk/get-a-job",
+          "api-reference/bulk/run-a-job",
+          "api-reference/bulk/get-users"
+        ]
+      },
+      {
+        "group": "Lists",
+        "pages": [
+          "api-reference/lists/get-all-lists",
+          "api-reference/lists/get-a-list",
+          "api-reference/lists/update-a-list",
+          "api-reference/lists/get-the-subscriptions-for-a-list",
+          "api-reference/lists/subscribe-users-to-a-list",
+          "api-reference/lists/add-subscribers-to-a-list",
+          "api-reference/lists/subscribe-a-single-user-to-a-list",
+          "api-reference/lists/unsubscribe-a-user-from-a-list"
+        ]
+      },
+      {
+        "group": "Messages",
+        "pages": [
+          "api-reference/messages/list-messages",
+          "api-reference/messages/get-message",
+          "api-reference/messages/cancel-message",
+          "api-reference/messages/get-message-history",
+          "api-reference/messages/get-message-content",
+          "api-reference/messages/archive-message"
+        ]
+      },
+      {
+        "group": "Profiles",
+        "pages": [
+          "api-reference/profiles/get-a-profile",
+          "api-reference/profiles/replace-a-profile",
+          "api-reference/profiles/create-a-profile",
+          "api-reference/profiles/delete-a-profile",
+          "api-reference/profiles/update-a-profile",
+          "api-reference/profiles/get-list-subscriptions"
         ]
       }
     ],
